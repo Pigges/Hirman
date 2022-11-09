@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+    background-color: #1f1f1f
+}
+
+body {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#matrix {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: -100;
+}
+
+header {
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: rgba(0,0,0,0.8);
+    margin-bottom: 50px;
+}
+
+header .left a {
+    color: #fff;
+    font-size: 2.25rem;
+}
+
+header .right ul {
+    font-size: 1rem;
+    display: flex;
+    list-style: none;
+}
+
+header .right ul li {
+    padding-left: 20px;
+}
+
+header .right ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .right ul li .active {
+    color: #11FF11;
+}
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    max-width: 7000px;
+    border-radius: 20px;
+    border: 1px solid #11ff11;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.wrapper .left {
+    width: 50%;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.wrapper .left h2 {
+    font-size: 2.25rem;
+    padding-bottom: 20px;
+}
+
+.wrapper .left p {
+    font-size: 1.25rem;
+}
+
+.wrapper .left .exclusive {
+    padding-top: 40px;
+}
+
+.wrapper .right {
+    width: 50%;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.wrapper .right div {
+    margin-left: 10%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgba(50,50,50,0.2);
+}
+
+.wrapper .right div img {
+    transform: translateX(-10%);
+    max-width: 140%;
+}
+
+.wrapper-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #11ff11;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.wrapper-button a {
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: 1px solid #11ff11;
+    background-color: rgba(17, 255, 17, 0.2);
+}
