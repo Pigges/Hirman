@@ -3,18 +3,24 @@ h1 {
 }
 
 .wrapper {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .wrapper .card {
     display: flex;
     border-radius: 10px;
+    width: fit-content;
     border: 1px solid #11ff11;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     margin: 20px 40px;
+}
+
+.wrapper .card:nth-last-child(2n) {
+    justify-self: end;
 }
 
 .wrapper .card .img {
