@@ -65,3 +65,32 @@ header .right ul li a {
 header .right ul li .active {
     color: #11FF11;
 }
+
+.wrapper-button {
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.button {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: 1px solid #11ff11;
+    background-color: rgba(17, 255, 17, 0.2);
+}
+
+.button:hover {
+    background-color: rgba(17, 255, 17, 0.3);
+}
+
+.button:active {
+    background-color: rgba(17, 255, 17, 0.4);
+}

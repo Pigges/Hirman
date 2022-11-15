@@ -4,4 +4,67 @@ h1 {
 
 .wrapper {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper .card {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #11ff11;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 20px 40px;
+}
+
+.wrapper .card .img {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 130px;
+    overflow: hidden;
+    border: 1px solid #11ff11;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.wrapper .card .img img {
+    height: 120%;
+}
+
+.wrapper .card .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper .card .cont .txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .card .cont .txt p {
+    font-size: 1.5rem;
+}
+
+.wrapper .card .cont .txt .stats p {
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.wrapper .card .cont .button {
+    margin: 20px 40px 0 40px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #11ff11;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 1.2rem;
 }
