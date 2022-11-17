@@ -109,7 +109,7 @@ async function handleAgent() {
     }
     // Redirect to /browse if the id does not exist
     if (!valid) {
-        window.location.href = "/browse/?invalid=true";
+        window.location.replace("/browse/?invalid=true");
     }
 }
 
