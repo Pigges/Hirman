@@ -24,14 +24,6 @@ body {
     user-select: none;
 }
 
-#matrix {
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    left: 0px;
-    z-index: -100;
-}
-
 header {
     min-height: 75px;
     display: flex;
