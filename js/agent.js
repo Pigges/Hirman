@@ -46,10 +46,9 @@ async function assignAgent(data) {
         "stats": document.getElementById('agent_stats'),
         "victims": document.getElementById('agent_victims'),
     }
-    console.log(agent);
 
     // Assigning the element with the agent's data
-    agent.name.innerText += data.name;
+    agent.name.innerText = "Agent " + data.name;
     agent.desc.innerText = data.description;
     agent.img.src = data.image;
 
@@ -92,8 +91,6 @@ async function assignAgent(data) {
             i++;
         }
     }
-
-    console.log(data);
 }
 
 // Handle setting up agent
