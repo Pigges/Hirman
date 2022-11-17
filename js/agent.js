@@ -95,13 +95,21 @@ async function assignAgent(data) {
 
 // Handle setting up agent
 async function handleAgent() {
+    let valid;
     // Fetch agents
     const data = await getAgents()
     // Go through the agents to find the one with the correct id
     for (i in data) {
-        if (data[i].id == getParameter('id'))
+        if (data[i].id == getParameter('id')) {
             // If the agent gets found, assign agent to the page
             assignAgent(data[i]);
+            valid = true;
+            break;
+        }
+    }
+    // Redirect to /browse if the id does not exist
+    if (!valid) {
+        window.location.href = "/browse/?invalid=true";
     }
 }
 
