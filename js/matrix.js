@@ -23,9 +23,6 @@ function init() {
 
   // Create the canvas
   const canvas = createCanvas(cWidth, cHeight);
-  const ctx = canvas.getContext('2d');
-  ctx.fillStyle = "#000";
-  ctx.fillRect(0,0,cWidth,cHeight)
   return canvas
 }
 
