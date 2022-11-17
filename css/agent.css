@@ -1,0 +1,115 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    max-width: 7000px;
+    border-radius: 20px;
+    border: 1px solid #11ff11;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wrapper #agent {
+    display: flex;
+    margin: 40px 40px 0 40px;
+    justify-content: space-between;
+}
+
+.wrapper #agent .left {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper #agent .left .img {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 1px solid #11ff11;
+}
+
+.wrapper #agent .left .img img {
+    height: 100%;
+}
+
+.wrapper #agent .left .desc {
+    width: 50%;
+}
+
+.wrapper #agent .left .desc .title {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.wrapper #agent .left .desc p {
+    font-size: 1rem;
+}
+
+.wrapper #agent .stats {
+    /* text-align: center; */
+    padding: 10px 20px;
+    border: 1px solid #11ff11;
+    border-radius: 10px;
+}
+
+.wrapper #agent .stats .title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0 10px 10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #11ff11;
+}
+
+.wrapper .victims {
+    margin: 40px 40px 0;
+}
+
+.wrapper .victims .title {
+    font-size: 1.5rem;
+}
+
+.wrapper .victims .cards {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.wrapper .victims .cards .victim {
+    text-align: center;
+    margin-right: 15px;
+}
+
+.wrapper .victims .cards .victim .img {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 1px solid #11ff11;
+}
+
+.wrapper .victims .cards .victim .img img {
+    height: 100%;
+}
+
+.wrapper .break {
+    height: 1px;
+    margin: 20px 40px;
+    background-color: #11ff11;
+}
+
+.wrapper .hire {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
