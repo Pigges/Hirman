@@ -1,0 +1,28 @@
+[
+    {
+        "id": "7820b0fb-7e41-4dbb-902e-4db874785966",
+        "name": "Agent Kallsås",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.",
+        "stats": {
+            "consistency": "99%",
+            "status": "Active",
+            "location": "unknown",
+            "victims": "7000+",
+            "experience": "10+ years"
+        },
+        "victims": [
+            {
+                "name": "Donald Trump",
+                "image": "donald_trump.webp"
+            },
+            {
+                "name": "Barack Obama",
+                "image": "barack_obama.webp"
+            },
+            {
+                "name": "Boris Johnson",
+                "image": "boris_johnson.webp"
+            }
+        ]
+    }
+]
