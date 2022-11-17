@@ -4,7 +4,7 @@ function createCanvas(cWidth, cHeight) {
   let canvas = document.createElement('canvas');
   
   canvas.id             = 'matrix';
-  canvas.style.position = 'absolute';
+  canvas.style.position = 'fixed';
   canvas.style.left     = '0';
   canvas.style.top      = '0';
   canvas.style.zIndex   = '-100';
