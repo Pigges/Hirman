@@ -37,7 +37,7 @@
 }
 
 .wrapper #agent .left .desc {
-    width: 50%;
+    max-width: 70%;
 }
 
 .wrapper #agent .left .desc .title {
@@ -51,7 +51,9 @@
 
 .wrapper #agent .stats {
     /* text-align: center; */
-    padding: 10px 20px;
+    min-width: fit-content;
+    height: fit-content;
+    padding: 20px 20px;
     border: 1px solid #11ff11;
     border-radius: 10px;
 }
