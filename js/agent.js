@@ -74,7 +74,7 @@ async function assignAgent(data) {
     document.getElementById('hire_id').href += data.id
 
     // If status is active, use thispersondoesnotexist
-    if (data.stats.status = 'active') {
+    if (data.stats.status == 'Active') {
         let i = 0;
         while (i < 5) {
             // Data for the image
@@ -90,6 +90,10 @@ async function assignAgent(data) {
             }, i ? (i+1) * 1000 : 0);
             i++;
         }
+    } else {
+        // If status is not active (maybe complicated), hide section
+        const latest = document.getElementById('latest-victims');
+        latest.style = "display: none;"
     }
 }
 
