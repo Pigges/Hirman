@@ -49,10 +49,16 @@ function createAgent(data, list, side) {
         txt.appendChild(name);
         txt.appendChild(stats);
 
+    const button = document.createElement('a');
+        button.href = `/browse/agent/?id=${data.id}`
+        button.innerText = "Profile"
+        button.classList.add('button');
+
     // Create div for the content and append it
     const cont = document.createElement('div');
         cont.className = 'cont';
         cont.appendChild(txt);
+        cont.appendChild(button);
 
     // Create the card for the agent and append all elements to it
     const card = document.createElement('div');
