@@ -25,5 +25,32 @@
                 "image": "/img/boris_johnson.webp"
             }
         ]
+    },
+    {
+        "id": "b90baf2a-2331-4cf9-a1fa-db24c059d279",
+        "name": "Creamsauce",
+        "description": "He specialices in suffocating their victims with creamsauce. You could call it death by creamsauce. It must be mentioned that he has some kind of specialty with victims with the name Gordon.",
+        "image": "/img/creamsauce.webp",
+        "stats": {
+            "consistency": "89%",
+            "status": "Active",
+            "location": "unknown",
+            "victims": "2000+",
+            "experience": "5+ years"
+        },
+        "victims": [
+            {
+                "name": "Gordon Ramsey",
+                "image": "/img/gordon_ramsey.webp"
+            },
+            {
+                "name": "Gordon Dewoon",
+                "image": "/img/gordon_dewoon.webp"
+            },
+            {
+                "name": "Gordon Hayward",
+                "image": "/img/gordon_hayward.webp"
+            }
+        ]
     }
 ]
