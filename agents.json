@@ -56,14 +56,20 @@
     {
         "id": "2be7c5c9-005e-48d3-bd78-e8d1bece5855",
         "name": "Snubbelsås",
-        "description": "",
+        "description": "To be honest, the story of Snubbelsås is a bit complicated. He have actually saved the lives in his contracts. So maybe try tell him he should save them and hopefully he will fail and your end goal will get accoplished. That's at least how Mrs. Wicket happened.",
         "image": "/img/mr_bean.webp",
         "stats": {
-            "consistency": "-8%",
+            "consistency": "8%",
             "status": "Complicated",
-            "location": "Highbury, London",
+            "location": "Highbury",
             "victims": "-12",
             "experience": "?"
-        }
+        },
+        "victims": [
+            {
+                "name": "Mrs. Wicket",
+                "image": "/img/mrs_wicket.webp"
+            }
+        ]
     }
 ]
