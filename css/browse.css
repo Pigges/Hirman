@@ -19,10 +19,6 @@ h1 {
     margin: 20px 40px;
 }
 
-.wrapper .card:nth-last-child(2n) {
-    justify-self: end;
-}
-
 .wrapper .card .img {
     display: flex;
     justify-content: center;
