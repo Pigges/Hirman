@@ -29,7 +29,7 @@ h1 {
     padding-bottom: 5px;
 }
 
-.wrapper form input {
+.wrapper form input, .wrapper form textarea {
     padding: 10px 20px;
     background-color: rgba(17, 255, 17, 0.2);
     border-radius: 10px;
@@ -37,10 +37,16 @@ h1 {
     margin-bottom: 10px;
 }
 
-.wrapper form input::placeholder {
+.wrapper form textarea {
+    min-width: fit-content;
+    min-height: 50px;
+    width: 200px;
+}
+
+.wrapper form input::placeholder, .wrapper form textarea::placeholder {
     color: rgba(255, 255, 255, 0.75);
 }
 
-.wrapper form input:focus {
+.wrapper form input:focus, .wrapper form textarea:focus {
     outline: none;
 }
