@@ -80,7 +80,7 @@ async function assignAgent(data) {
             // Data for the image
             const data = {
                 "name": "",
-                "image": "https://thispersondoesnotexist.com/image?id=" + i
+                "image": "https://thispersondoesnotexist.com?id=" + i
             }
 
             setTimeout(() => {
